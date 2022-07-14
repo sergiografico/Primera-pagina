@@ -1,0 +1,16 @@
+git init (cada vez que se crea un proyecto nuevo)
+
+---tener en cuenta siempre la rama en la que me encuentro para hacer los cambios--
+
+git add . (siempre que se haga un cambio en el bloque de codigo que haga, siempre debe usarse)
+---------------> git config --global user.name "nombre"
+---------------> git config --global user.email prueba@ejemplo.com
+---------------> git config --list
+git commit -m "Comentario"
+git remote add origin http://github.com...git (url del repositorio, tener en cuenta siempre)
+git push -u origin (aqui va la rama *nombre de la rama)
+git branch (permite ver la rama que he creado)
+    - git branch ----ver rama
+    - git branch NomRama ----Crear rama
+    - git checkout Rama ----Pasar de rama
+    - git branch -d NomRama_para_Eliminar ----Eliminar Rama
